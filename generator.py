@@ -152,6 +152,9 @@ def run(texts:List):
 
     all_pattern += ".*$"
     
+    if not pattern:
+        return None
+    
     return all_pattern
         
     
