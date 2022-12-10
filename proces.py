@@ -1,7 +1,7 @@
 
 import MeCab
 from typing import Optional, List
-from dataclass import WordDescription, DecomposedString
+from .dataclass import WordDescription, DecomposedString
 
 
 tagger = MeCab.Tagger("-Ochasen")
