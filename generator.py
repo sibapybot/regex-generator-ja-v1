@@ -1,12 +1,12 @@
 from typing import Optional, List
-from proces import (disassembly_text, 
+from .proces import (disassembly_text, 
                     max_word, 
                     pading, 
                     left_sift, 
                     all_same_element,
                     remove_spaces
                     )
-from dataclass import DecomposedString, WordDescription, AllText ,SaveDecomposedString
+from .dataclass import DecomposedString, WordDescription, AllText ,SaveDecomposedString
 import statistics
 import itertools
 import re
