@@ -156,7 +156,7 @@ def run(texts:List):
         
     
 def is_true(text,pattern):
-    print(remove_spaces(text))
+
     if re.match(pattern,remove_spaces(text)):
         return True
     else:
